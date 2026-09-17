@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Private research data
+private_data/
+data/raw/
+*.RData
+*.Rdata
+*.rds
+.ipynb_checkpoints/
+
+# Original participant-level ADNI files
+dxmerge_rsfmri_baselinedata*
+aparc_stats_dkt_thickness_lh.txt
+aparc_stats_dkt_thickness_rh.txt
