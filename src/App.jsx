@@ -11,6 +11,7 @@ import {
   YAxis,
 } from "recharts";
 import "./App.css";
+import AnnotationPanel from "./components/AnnotationPanel";
 
 const GROUP_LABELS = {
   CN: "Cognitively Normal",
@@ -332,6 +333,10 @@ function App() {
               </strong>
             </p>
           </div>
+          <AnnotationPanel
+            selectedRegion={selectedRegion}
+            selectedGroup={selectedGroup}
+          />
         </aside>
       </section>
     </main>
