@@ -1,0 +1,2205 @@
+{
+  "metadata": {
+    "title": "Cortical Thickness Explorer",
+    "measurement": "Regional cortical thickness",
+    "unit": "mm",
+    "atlas": "FreeSurfer aparc, 34 regions per hemisphere",
+    "regionCount": 68,
+    "groups": [
+      "CN",
+      "MCI",
+      "AD_TRAJECTORY"
+    ],
+    "cohortCounts": {
+      "CN": 477,
+      "MCI": 261,
+      "AD_TRAJECTORY": 167
+    },
+    "totalParticipants": 905,
+    "excludedZeroThicknessObservations": 1,
+    "groupDefinition": {
+      "CN": "Baseline cognitively normal, without observed conversion to dementia.",
+      "MCI": "Baseline mild cognitive impairment, without observed conversion to dementia.",
+      "AD_TRAJECTORY": "Dementia at baseline or subsequent conversion to dementia."
+    },
+    "privacy": "This file contains aggregate regional summaries only. It contains no participant identifiers or participant-level records."
+  },
+  "regions": [
+    {
+      "id": "lh_bankssts",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "bankssts",
+      "displayName": "Left Banks of Superior Temporal Sulcus",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3788,
+          "sd": 0.14,
+          "median": 2.381
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.369,
+          "sd": 0.1572,
+          "median": 2.365
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2649,
+          "sd": 0.1927,
+          "median": 2.268
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1139,
+        "AD_TRAJECTORY_minus_MCI": -0.1041,
+        "MCI_minus_CN": -0.0098
+      }
+    },
+    {
+      "id": "lh_caudalanteriorcingulate",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "caudalanteriorcingulate",
+      "displayName": "Left Caudal Anterior Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3887,
+          "sd": 0.2166,
+          "median": 2.375
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3697,
+          "sd": 0.2326,
+          "median": 2.362
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4465,
+          "sd": 0.2514,
+          "median": 2.429
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": 0.0578,
+        "AD_TRAJECTORY_minus_MCI": 0.0768,
+        "MCI_minus_CN": -0.019
+      }
+    },
+    {
+      "id": "lh_caudalmiddlefrontal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "caudalmiddlefrontal",
+      "displayName": "Left Caudal Middle Frontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.4129,
+          "sd": 0.1308,
+          "median": 2.423
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.4086,
+          "sd": 0.1313,
+          "median": 2.409
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.3251,
+          "sd": 0.1599,
+          "median": 2.321
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0878,
+        "AD_TRAJECTORY_minus_MCI": -0.0835,
+        "MCI_minus_CN": -0.0043
+      }
+    },
+    {
+      "id": "lh_cuneus",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "cuneus",
+      "displayName": "Left Cuneus",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 1.8595,
+          "sd": 0.1427,
+          "median": 1.858
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 1.8536,
+          "sd": 0.1566,
+          "median": 1.854
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.8162,
+          "sd": 0.1487,
+          "median": 1.791
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0433,
+        "AD_TRAJECTORY_minus_MCI": -0.0374,
+        "MCI_minus_CN": -0.0059
+      }
+    },
+    {
+      "id": "lh_entorhinal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "entorhinal",
+      "displayName": "Left Entorhinal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 3.1656,
+          "sd": 0.2931,
+          "median": 3.193
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 3.0624,
+          "sd": 0.3699,
+          "median": 3.123
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.6568,
+          "sd": 0.5377,
+          "median": 2.7
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.5088,
+        "AD_TRAJECTORY_minus_MCI": -0.4056,
+        "MCI_minus_CN": -0.1032
+      }
+    },
+    {
+      "id": "lh_frontalpole",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "frontalpole",
+      "displayName": "Left Frontal Pole",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6271,
+          "sd": 0.2409,
+          "median": 2.628
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6489,
+          "sd": 0.2626,
+          "median": 2.633
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.6216,
+          "sd": 0.2699,
+          "median": 2.617
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0055,
+        "AD_TRAJECTORY_minus_MCI": -0.0273,
+        "MCI_minus_CN": 0.0218
+      }
+    },
+    {
+      "id": "lh_fusiform",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "fusiform",
+      "displayName": "Left Fusiform",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6288,
+          "sd": 0.1323,
+          "median": 2.627
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6337,
+          "sd": 0.1371,
+          "median": 2.628
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.488,
+          "sd": 0.2074,
+          "median": 2.521
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1408,
+        "AD_TRAJECTORY_minus_MCI": -0.1457,
+        "MCI_minus_CN": 0.0049
+      }
+    },
+    {
+      "id": "lh_inferiorparietal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "inferiorparietal",
+      "displayName": "Left Inferior Parietal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.304,
+          "sd": 0.1171,
+          "median": 2.304
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2992,
+          "sd": 0.1204,
+          "median": 2.299
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.1729,
+          "sd": 0.1757,
+          "median": 2.189
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1311,
+        "AD_TRAJECTORY_minus_MCI": -0.1263,
+        "MCI_minus_CN": -0.0048
+      }
+    },
+    {
+      "id": "lh_inferiortemporal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "inferiortemporal",
+      "displayName": "Left Inferior Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6607,
+          "sd": 0.1414,
+          "median": 2.659
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6598,
+          "sd": 0.1639,
+          "median": 2.665
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5291,
+          "sd": 0.1998,
+          "median": 2.531
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1316,
+        "AD_TRAJECTORY_minus_MCI": -0.1307,
+        "MCI_minus_CN": -0.0009
+      }
+    },
+    {
+      "id": "lh_insula",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "insula",
+      "displayName": "Left Insula",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.8362,
+          "sd": 0.1608,
+          "median": 2.838
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.8178,
+          "sd": 0.1732,
+          "median": 2.81
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.7373,
+          "sd": 0.1899,
+          "median": 2.727
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0989,
+        "AD_TRAJECTORY_minus_MCI": -0.0805,
+        "MCI_minus_CN": -0.0184
+      }
+    },
+    {
+      "id": "lh_isthmuscingulate",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "isthmuscingulate",
+      "displayName": "Left Isthmus Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2068,
+          "sd": 0.1657,
+          "median": 2.198
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.1952,
+          "sd": 0.1676,
+          "median": 2.199
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.1454,
+          "sd": 0.1826,
+          "median": 2.126
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0614,
+        "AD_TRAJECTORY_minus_MCI": -0.0498,
+        "MCI_minus_CN": -0.0116
+      }
+    },
+    {
+      "id": "lh_lateraloccipital",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "lateraloccipital",
+      "displayName": "Left Lateral Occipital",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.1025,
+          "sd": 0.1198,
+          "median": 2.104
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.1034,
+          "sd": 0.1244,
+          "median": 2.104
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.0391,
+          "sd": 0.1371,
+          "median": 2.046
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0634,
+        "AD_TRAJECTORY_minus_MCI": -0.0643,
+        "MCI_minus_CN": 0.0009
+      }
+    },
+    {
+      "id": "lh_lateralorbitofrontal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "lateralorbitofrontal",
+      "displayName": "Left Lateral Orbitofrontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.5209,
+          "sd": 0.1311,
+          "median": 2.519
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.5217,
+          "sd": 0.1455,
+          "median": 2.516
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4889,
+          "sd": 0.1627,
+          "median": 2.475
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.032,
+        "AD_TRAJECTORY_minus_MCI": -0.0328,
+        "MCI_minus_CN": 0.0008
+      }
+    },
+    {
+      "id": "lh_lingual",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "lingual",
+      "displayName": "Left Lingual",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 1.9725,
+          "sd": 0.139,
+          "median": 1.96
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 1.968,
+          "sd": 0.1461,
+          "median": 1.952
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.9227,
+          "sd": 0.1546,
+          "median": 1.913
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0498,
+        "AD_TRAJECTORY_minus_MCI": -0.0453,
+        "MCI_minus_CN": -0.0045
+      }
+    },
+    {
+      "id": "lh_medialorbitofrontal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "medialorbitofrontal",
+      "displayName": "Left Medial Orbitofrontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.328,
+          "sd": 0.1377,
+          "median": 2.319
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3053,
+          "sd": 0.149,
+          "median": 2.3
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2574,
+          "sd": 0.1559,
+          "median": 2.248
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0706,
+        "AD_TRAJECTORY_minus_MCI": -0.0479,
+        "MCI_minus_CN": -0.0227
+      }
+    },
+    {
+      "id": "lh_middletemporal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "middletemporal",
+      "displayName": "Left Middle Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6758,
+          "sd": 0.124,
+          "median": 2.669
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6582,
+          "sd": 0.143,
+          "median": 2.67
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5261,
+          "sd": 0.1846,
+          "median": 2.546
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1497,
+        "AD_TRAJECTORY_minus_MCI": -0.1321,
+        "MCI_minus_CN": -0.0176
+      }
+    },
+    {
+      "id": "lh_paracentral",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "paracentral",
+      "displayName": "Left Paracentral",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3241,
+          "sd": 0.1521,
+          "median": 2.333
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3243,
+          "sd": 0.155,
+          "median": 2.329
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2805,
+          "sd": 0.1674,
+          "median": 2.292
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0436,
+        "AD_TRAJECTORY_minus_MCI": -0.0438,
+        "MCI_minus_CN": 0.0002
+      }
+    },
+    {
+      "id": "lh_parahippocampal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "parahippocampal",
+      "displayName": "Left Parahippocampal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6824,
+          "sd": 0.2611,
+          "median": 2.694
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6618,
+          "sd": 0.2905,
+          "median": 2.656
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4599,
+          "sd": 0.3252,
+          "median": 2.462
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.2225,
+        "AD_TRAJECTORY_minus_MCI": -0.2019,
+        "MCI_minus_CN": -0.0206
+      }
+    },
+    {
+      "id": "lh_parsopercularis",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "parsopercularis",
+      "displayName": "Left Pars Opercularis",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.4622,
+          "sd": 0.1245,
+          "median": 2.462
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.4729,
+          "sd": 0.1322,
+          "median": 2.479
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4076,
+          "sd": 0.1211,
+          "median": 2.41
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0546,
+        "AD_TRAJECTORY_minus_MCI": -0.0653,
+        "MCI_minus_CN": 0.0107
+      }
+    },
+    {
+      "id": "lh_parsorbitalis",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "parsorbitalis",
+      "displayName": "Left Pars Orbitalis",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.5657,
+          "sd": 0.1803,
+          "median": 2.549
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.593,
+          "sd": 0.2069,
+          "median": 2.576
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5317,
+          "sd": 0.2001,
+          "median": 2.527
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.034,
+        "AD_TRAJECTORY_minus_MCI": -0.0613,
+        "MCI_minus_CN": 0.0273
+      }
+    },
+    {
+      "id": "lh_parstriangularis",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "parstriangularis",
+      "displayName": "Left Pars Triangularis",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3215,
+          "sd": 0.131,
+          "median": 2.326
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3254,
+          "sd": 0.1463,
+          "median": 2.336
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2921,
+          "sd": 0.1376,
+          "median": 2.307
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0294,
+        "AD_TRAJECTORY_minus_MCI": -0.0333,
+        "MCI_minus_CN": 0.0039
+      }
+    },
+    {
+      "id": "lh_pericalcarine",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "pericalcarine",
+      "displayName": "Left Pericalcarine",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 1.6428,
+          "sd": 0.1645,
+          "median": 1.637
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 1.6248,
+          "sd": 0.1714,
+          "median": 1.616
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.586,
+          "sd": 0.1717,
+          "median": 1.571
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0568,
+        "AD_TRAJECTORY_minus_MCI": -0.0388,
+        "MCI_minus_CN": -0.018
+      }
+    },
+    {
+      "id": "lh_postcentral",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "postcentral",
+      "displayName": "Left Postcentral",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.0233,
+          "sd": 0.1293,
+          "median": 2.022
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.0122,
+          "sd": 0.1247,
+          "median": 2.011
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.9592,
+          "sd": 0.1295,
+          "median": 1.956
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0641,
+        "AD_TRAJECTORY_minus_MCI": -0.053,
+        "MCI_minus_CN": -0.0111
+      }
+    },
+    {
+      "id": "lh_posteriorcingulate",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "posteriorcingulate",
+      "displayName": "Left Posterior Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2965,
+          "sd": 0.1351,
+          "median": 2.294
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2948,
+          "sd": 0.1588,
+          "median": 2.293
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2641,
+          "sd": 0.1616,
+          "median": 2.243
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0324,
+        "AD_TRAJECTORY_minus_MCI": -0.0307,
+        "MCI_minus_CN": -0.0017
+      }
+    },
+    {
+      "id": "lh_precentral",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "precentral",
+      "displayName": "Left Precentral",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.4388,
+          "sd": 0.1473,
+          "median": 2.449
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.4318,
+          "sd": 0.1448,
+          "median": 2.445
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.368,
+          "sd": 0.1538,
+          "median": 2.366
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0708,
+        "AD_TRAJECTORY_minus_MCI": -0.0638,
+        "MCI_minus_CN": -0.007
+      }
+    },
+    {
+      "id": "lh_precuneus",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "precuneus",
+      "displayName": "Left Precuneus",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2793,
+          "sd": 0.1225,
+          "median": 2.28
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2721,
+          "sd": 0.1194,
+          "median": 2.276
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.1606,
+          "sd": 0.1619,
+          "median": 2.162
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1187,
+        "AD_TRAJECTORY_minus_MCI": -0.1115,
+        "MCI_minus_CN": -0.0072
+      }
+    },
+    {
+      "id": "lh_rostralanteriorcingulate",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "rostralanteriorcingulate",
+      "displayName": "Left Rostral Anterior Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6243,
+          "sd": 0.1971,
+          "median": 2.618
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6219,
+          "sd": 0.2156,
+          "median": 2.623
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5975,
+          "sd": 0.225,
+          "median": 2.591
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0268,
+        "AD_TRAJECTORY_minus_MCI": -0.0244,
+        "MCI_minus_CN": -0.0024
+      }
+    },
+    {
+      "id": "lh_rostralmiddlefrontal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "rostralmiddlefrontal",
+      "displayName": "Left Rostral Middle Frontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2642,
+          "sd": 0.1175,
+          "median": 2.265
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2646,
+          "sd": 0.1269,
+          "median": 2.272
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2159,
+          "sd": 0.138,
+          "median": 2.216
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0483,
+        "AD_TRAJECTORY_minus_MCI": -0.0487,
+        "MCI_minus_CN": 0.0004
+      }
+    },
+    {
+      "id": "lh_superiorfrontal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "superiorfrontal",
+      "displayName": "Left Superior Frontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.5178,
+          "sd": 0.125,
+          "median": 2.516
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.5239,
+          "sd": 0.122,
+          "median": 2.537
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4602,
+          "sd": 0.1473,
+          "median": 2.459
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0576,
+        "AD_TRAJECTORY_minus_MCI": -0.0637,
+        "MCI_minus_CN": 0.0061
+      }
+    },
+    {
+      "id": "lh_superiorparietal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "superiorparietal",
+      "displayName": "Left Superior Parietal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.1301,
+          "sd": 0.1334,
+          "median": 2.133
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.1251,
+          "sd": 0.1285,
+          "median": 2.128
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.0338,
+          "sd": 0.1607,
+          "median": 2.041
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0963,
+        "AD_TRAJECTORY_minus_MCI": -0.0913,
+        "MCI_minus_CN": -0.005
+      }
+    },
+    {
+      "id": "lh_superiortemporal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "superiortemporal",
+      "displayName": "Left Superior Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6042,
+          "sd": 0.1528,
+          "median": 2.602
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.573,
+          "sd": 0.1654,
+          "median": 2.583
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4366,
+          "sd": 0.175,
+          "median": 2.459
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1676,
+        "AD_TRAJECTORY_minus_MCI": -0.1364,
+        "MCI_minus_CN": -0.0312
+      }
+    },
+    {
+      "id": "lh_supramarginal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "supramarginal",
+      "displayName": "Left Supramarginal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3927,
+          "sd": 0.1205,
+          "median": 2.399
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3786,
+          "sd": 0.1326,
+          "median": 2.38
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.281,
+          "sd": 0.1511,
+          "median": 2.286
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1117,
+        "AD_TRAJECTORY_minus_MCI": -0.0976,
+        "MCI_minus_CN": -0.0141
+      }
+    },
+    {
+      "id": "lh_temporalpole",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "temporalpole",
+      "displayName": "Left Temporal Pole",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 3.4762,
+          "sd": 0.2915,
+          "median": 3.488
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 3.4107,
+          "sd": 0.308,
+          "median": 3.429
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 3.1963,
+          "sd": 0.433,
+          "median": 3.224
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.2799,
+        "AD_TRAJECTORY_minus_MCI": -0.2144,
+        "MCI_minus_CN": -0.0655
+      }
+    },
+    {
+      "id": "lh_transversetemporal",
+      "hemisphere": "Left",
+      "hemisphereCode": "lh",
+      "region": "transversetemporal",
+      "displayName": "Left Transverse Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3034,
+          "sd": 0.207,
+          "median": 2.304
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2812,
+          "sd": 0.2099,
+          "median": 2.277
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.211,
+          "sd": 0.2398,
+          "median": 2.211
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0924,
+        "AD_TRAJECTORY_minus_MCI": -0.0702,
+        "MCI_minus_CN": -0.0222
+      }
+    },
+    {
+      "id": "rh_bankssts",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "bankssts",
+      "displayName": "Right Banks of Superior Temporal Sulcus",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.4666,
+          "sd": 0.1443,
+          "median": 2.464
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.457,
+          "sd": 0.1712,
+          "median": 2.463
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.3695,
+          "sd": 0.1582,
+          "median": 2.391
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0971,
+        "AD_TRAJECTORY_minus_MCI": -0.0875,
+        "MCI_minus_CN": -0.0096
+      }
+    },
+    {
+      "id": "rh_caudalanteriorcingulate",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "caudalanteriorcingulate",
+      "displayName": "Right Caudal Anterior Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2965,
+          "sd": 0.1895,
+          "median": 2.291
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2777,
+          "sd": 0.2246,
+          "median": 2.269
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2992,
+          "sd": 0.2178,
+          "median": 2.243
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": 0.0027,
+        "AD_TRAJECTORY_minus_MCI": 0.0215,
+        "MCI_minus_CN": -0.0188
+      }
+    },
+    {
+      "id": "rh_caudalmiddlefrontal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "caudalmiddlefrontal",
+      "displayName": "Right Caudal Middle Frontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.392,
+          "sd": 0.1304,
+          "median": 2.394
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3898,
+          "sd": 0.1295,
+          "median": 2.389
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.325,
+          "sd": 0.1494,
+          "median": 2.322
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.067,
+        "AD_TRAJECTORY_minus_MCI": -0.0648,
+        "MCI_minus_CN": -0.0022
+      }
+    },
+    {
+      "id": "rh_cuneus",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "cuneus",
+      "displayName": "Right Cuneus",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 1.8984,
+          "sd": 0.1421,
+          "median": 1.902
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 1.8644,
+          "sd": 0.1457,
+          "median": 1.867
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.8446,
+          "sd": 0.1393,
+          "median": 1.841
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0538,
+        "AD_TRAJECTORY_minus_MCI": -0.0198,
+        "MCI_minus_CN": -0.034
+      }
+    },
+    {
+      "id": "rh_entorhinal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "entorhinal",
+      "displayName": "Right Entorhinal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 3.2073,
+          "sd": 0.3233,
+          "median": 3.213
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 3.1521,
+          "sd": 0.3973,
+          "median": 3.193
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.7424,
+          "sd": 0.5096,
+          "median": 2.78
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.4649,
+        "AD_TRAJECTORY_minus_MCI": -0.4097,
+        "MCI_minus_CN": -0.0552
+      }
+    },
+    {
+      "id": "rh_frontalpole",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "frontalpole",
+      "displayName": "Right Frontal Pole",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6388,
+          "sd": 0.2424,
+          "median": 2.62
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6416,
+          "sd": 0.2679,
+          "median": 2.615
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.6199,
+          "sd": 0.2853,
+          "median": 2.601
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0189,
+        "AD_TRAJECTORY_minus_MCI": -0.0217,
+        "MCI_minus_CN": 0.0028
+      }
+    },
+    {
+      "id": "rh_fusiform",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "fusiform",
+      "displayName": "Right Fusiform",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6587,
+          "sd": 0.1367,
+          "median": 2.669
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.639,
+          "sd": 0.1394,
+          "median": 2.643
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5339,
+          "sd": 0.1955,
+          "median": 2.543
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1248,
+        "AD_TRAJECTORY_minus_MCI": -0.1051,
+        "MCI_minus_CN": -0.0197
+      }
+    },
+    {
+      "id": "rh_inferiorparietal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "inferiorparietal",
+      "displayName": "Right Inferior Parietal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3338,
+          "sd": 0.129,
+          "median": 2.337
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3204,
+          "sd": 0.1239,
+          "median": 2.321
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2102,
+          "sd": 0.1514,
+          "median": 2.224
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1236,
+        "AD_TRAJECTORY_minus_MCI": -0.1102,
+        "MCI_minus_CN": -0.0134
+      }
+    },
+    {
+      "id": "rh_inferiortemporal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "inferiortemporal",
+      "displayName": "Right Inferior Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6835,
+          "sd": 0.1323,
+          "median": 2.69
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6678,
+          "sd": 0.1448,
+          "median": 2.667
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5794,
+          "sd": 0.1899,
+          "median": 2.564
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1041,
+        "AD_TRAJECTORY_minus_MCI": -0.0884,
+        "MCI_minus_CN": -0.0157
+      }
+    },
+    {
+      "id": "rh_insula",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "insula",
+      "displayName": "Right Insula",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.8368,
+          "sd": 0.155,
+          "median": 2.838
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.7934,
+          "sd": 0.1721,
+          "median": 2.79
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.7253,
+          "sd": 0.2021,
+          "median": 2.714
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1115,
+        "AD_TRAJECTORY_minus_MCI": -0.0681,
+        "MCI_minus_CN": -0.0434
+      }
+    },
+    {
+      "id": "rh_isthmuscingulate",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "isthmuscingulate",
+      "displayName": "Right Isthmus Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2106,
+          "sd": 0.1692,
+          "median": 2.201
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.1944,
+          "sd": 0.1735,
+          "median": 2.182
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.1376,
+          "sd": 0.178,
+          "median": 2.12
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.073,
+        "AD_TRAJECTORY_minus_MCI": -0.0568,
+        "MCI_minus_CN": -0.0162
+      }
+    },
+    {
+      "id": "rh_lateraloccipital",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "lateraloccipital",
+      "displayName": "Right Lateral Occipital",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.1663,
+          "sd": 0.1266,
+          "median": 2.169
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.1594,
+          "sd": 0.1331,
+          "median": 2.155
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.0949,
+          "sd": 0.1356,
+          "median": 2.083
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0714,
+        "AD_TRAJECTORY_minus_MCI": -0.0645,
+        "MCI_minus_CN": -0.0069
+      }
+    },
+    {
+      "id": "rh_lateralorbitofrontal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "lateralorbitofrontal",
+      "displayName": "Right Lateral Orbitofrontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.506,
+          "sd": 0.1277,
+          "median": 2.5
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.5099,
+          "sd": 0.1429,
+          "median": 2.515
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4844,
+          "sd": 0.1442,
+          "median": 2.477
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0216,
+        "AD_TRAJECTORY_minus_MCI": -0.0255,
+        "MCI_minus_CN": 0.0039
+      }
+    },
+    {
+      "id": "rh_lingual",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "lingual",
+      "displayName": "Right Lingual",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.0009,
+          "sd": 0.1406,
+          "median": 1.988
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 1.9887,
+          "sd": 0.1326,
+          "median": 1.983
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.9548,
+          "sd": 0.1456,
+          "median": 1.958
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0461,
+        "AD_TRAJECTORY_minus_MCI": -0.0339,
+        "MCI_minus_CN": -0.0122
+      }
+    },
+    {
+      "id": "rh_medialorbitofrontal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "medialorbitofrontal",
+      "displayName": "Right Medial Orbitofrontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3413,
+          "sd": 0.1402,
+          "median": 2.34
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.361,
+          "sd": 0.1635,
+          "median": 2.341
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.3315,
+          "sd": 0.1737,
+          "median": 2.318
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0098,
+        "AD_TRAJECTORY_minus_MCI": -0.0295,
+        "MCI_minus_CN": 0.0197
+      }
+    },
+    {
+      "id": "rh_middletemporal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "middletemporal",
+      "displayName": "Right Middle Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.7113,
+          "sd": 0.1325,
+          "median": 2.707
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6916,
+          "sd": 0.1537,
+          "median": 2.695
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5985,
+          "sd": 0.162,
+          "median": 2.598
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1128,
+        "AD_TRAJECTORY_minus_MCI": -0.0931,
+        "MCI_minus_CN": -0.0197
+      }
+    },
+    {
+      "id": "rh_paracentral",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "paracentral",
+      "displayName": "Right Paracentral",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3368,
+          "sd": 0.1702,
+          "median": 2.339
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.344,
+          "sd": 0.1434,
+          "median": 2.346
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2905,
+          "sd": 0.1601,
+          "median": 2.289
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0463,
+        "AD_TRAJECTORY_minus_MCI": -0.0535,
+        "MCI_minus_CN": 0.0072
+      }
+    },
+    {
+      "id": "rh_parahippocampal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "parahippocampal",
+      "displayName": "Right Parahippocampal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6076,
+          "sd": 0.2125,
+          "median": 2.612
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.5807,
+          "sd": 0.2338,
+          "median": 2.603
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4488,
+          "sd": 0.2914,
+          "median": 2.471
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1588,
+        "AD_TRAJECTORY_minus_MCI": -0.1319,
+        "MCI_minus_CN": -0.0269
+      }
+    },
+    {
+      "id": "rh_parsopercularis",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "parsopercularis",
+      "displayName": "Right Pars Opercularis",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.4601,
+          "sd": 0.1304,
+          "median": 2.463
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.462,
+          "sd": 0.1303,
+          "median": 2.454
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4242,
+          "sd": 0.142,
+          "median": 2.426
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0359,
+        "AD_TRAJECTORY_minus_MCI": -0.0378,
+        "MCI_minus_CN": 0.0019
+      }
+    },
+    {
+      "id": "rh_parsorbitalis",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "parsorbitalis",
+      "displayName": "Right Pars Orbitalis",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.5644,
+          "sd": 0.1675,
+          "median": 2.558
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.5559,
+          "sd": 0.1776,
+          "median": 2.564
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5583,
+          "sd": 0.1949,
+          "median": 2.547
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0061,
+        "AD_TRAJECTORY_minus_MCI": 0.0024,
+        "MCI_minus_CN": -0.0085
+      }
+    },
+    {
+      "id": "rh_parstriangularis",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "parstriangularis",
+      "displayName": "Right Pars Triangularis",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3306,
+          "sd": 0.1254,
+          "median": 2.335
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3311,
+          "sd": 0.1267,
+          "median": 2.336
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.3025,
+          "sd": 0.1499,
+          "median": 2.322
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0281,
+        "AD_TRAJECTORY_minus_MCI": -0.0286,
+        "MCI_minus_CN": 0.0005
+      }
+    },
+    {
+      "id": "rh_pericalcarine",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "pericalcarine",
+      "displayName": "Right Pericalcarine",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 1.6534,
+          "sd": 0.1642,
+          "median": 1.642
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 1.6296,
+          "sd": 0.1593,
+          "median": 1.62
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.591,
+          "sd": 0.1698,
+          "median": 1.561
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0624,
+        "AD_TRAJECTORY_minus_MCI": -0.0386,
+        "MCI_minus_CN": -0.0238
+      }
+    },
+    {
+      "id": "rh_postcentral",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "postcentral",
+      "displayName": "Right Postcentral",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.0127,
+          "sd": 0.1377,
+          "median": 2.011
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.0032,
+          "sd": 0.1305,
+          "median": 1.998
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 1.9417,
+          "sd": 0.1326,
+          "median": 1.928
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.071,
+        "AD_TRAJECTORY_minus_MCI": -0.0615,
+        "MCI_minus_CN": -0.0095
+      }
+    },
+    {
+      "id": "rh_posteriorcingulate",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "posteriorcingulate",
+      "displayName": "Right Posterior Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2887,
+          "sd": 0.1398,
+          "median": 2.27
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2913,
+          "sd": 0.1626,
+          "median": 2.283
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2825,
+          "sd": 0.1555,
+          "median": 2.262
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0062,
+        "AD_TRAJECTORY_minus_MCI": -0.0088,
+        "MCI_minus_CN": 0.0026
+      }
+    },
+    {
+      "id": "rh_precentral",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "precentral",
+      "displayName": "Right Precentral",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.4016,
+          "sd": 0.1579,
+          "median": 2.407
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3999,
+          "sd": 0.1619,
+          "median": 2.404
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.3583,
+          "sd": 0.1616,
+          "median": 2.358
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0433,
+        "AD_TRAJECTORY_minus_MCI": -0.0416,
+        "MCI_minus_CN": -0.0017
+      }
+    },
+    {
+      "id": "rh_precuneus",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "precuneus",
+      "displayName": "Right Precuneus",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2952,
+          "sd": 0.1273,
+          "median": 2.305
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2797,
+          "sd": 0.1189,
+          "median": 2.276
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.1819,
+          "sd": 0.1381,
+          "median": 2.184
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.1133,
+        "AD_TRAJECTORY_minus_MCI": -0.0978,
+        "MCI_minus_CN": -0.0155
+      }
+    },
+    {
+      "id": "rh_rostralanteriorcingulate",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "rostralanteriorcingulate",
+      "displayName": "Right Rostral Anterior Cingulate",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6738,
+          "sd": 0.2081,
+          "median": 2.663
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.6921,
+          "sd": 0.2914,
+          "median": 2.675
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.7077,
+          "sd": 0.2414,
+          "median": 2.687
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": 0.0339,
+        "AD_TRAJECTORY_minus_MCI": 0.0156,
+        "MCI_minus_CN": 0.0183
+      }
+    },
+    {
+      "id": "rh_rostralmiddlefrontal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "rostralmiddlefrontal",
+      "displayName": "Right Rostral Middle Frontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.2499,
+          "sd": 0.1184,
+          "median": 2.251
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.2604,
+          "sd": 0.1226,
+          "median": 2.258
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.2288,
+          "sd": 0.1317,
+          "median": 2.232
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0211,
+        "AD_TRAJECTORY_minus_MCI": -0.0316,
+        "MCI_minus_CN": 0.0105
+      }
+    },
+    {
+      "id": "rh_superiorfrontal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "superiorfrontal",
+      "displayName": "Right Superior Frontal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.5139,
+          "sd": 0.1248,
+          "median": 2.507
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.5248,
+          "sd": 0.1335,
+          "median": 2.529
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.4753,
+          "sd": 0.1395,
+          "median": 2.468
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0386,
+        "AD_TRAJECTORY_minus_MCI": -0.0495,
+        "MCI_minus_CN": 0.0109
+      }
+    },
+    {
+      "id": "rh_superiorparietal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "superiorparietal",
+      "displayName": "Right Superior Parietal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.1191,
+          "sd": 0.1374,
+          "median": 2.119
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.1087,
+          "sd": 0.1321,
+          "median": 2.113
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.0271,
+          "sd": 0.1489,
+          "median": 2.038
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.092,
+        "AD_TRAJECTORY_minus_MCI": -0.0816,
+        "MCI_minus_CN": -0.0104
+      }
+    },
+    {
+      "id": "rh_superiortemporal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "superiortemporal",
+      "displayName": "Right Superior Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.6248,
+          "sd": 0.1535,
+          "median": 2.62
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.605,
+          "sd": 0.1696,
+          "median": 2.611
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.5058,
+          "sd": 0.1681,
+          "median": 2.487
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.119,
+        "AD_TRAJECTORY_minus_MCI": -0.0992,
+        "MCI_minus_CN": -0.0198
+      }
+    },
+    {
+      "id": "rh_supramarginal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "supramarginal",
+      "displayName": "Right Supramarginal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3979,
+          "sd": 0.1295,
+          "median": 2.405
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3859,
+          "sd": 0.1359,
+          "median": 2.384
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.3094,
+          "sd": 0.1327,
+          "median": 2.321
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0885,
+        "AD_TRAJECTORY_minus_MCI": -0.0765,
+        "MCI_minus_CN": -0.012
+      }
+    },
+    {
+      "id": "rh_temporalpole",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "temporalpole",
+      "displayName": "Right Temporal Pole",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 3.5297,
+          "sd": 0.3226,
+          "median": 3.56
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 3.4685,
+          "sd": 0.3438,
+          "median": 3.514
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 3.2635,
+          "sd": 0.4276,
+          "median": 3.301
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.2662,
+        "AD_TRAJECTORY_minus_MCI": -0.205,
+        "MCI_minus_CN": -0.0612
+      }
+    },
+    {
+      "id": "rh_transversetemporal",
+      "hemisphere": "Right",
+      "hemisphereCode": "rh",
+      "region": "transversetemporal",
+      "displayName": "Right Transverse Temporal",
+      "groups": {
+        "CN": {
+          "n": 477,
+          "mean": 2.3323,
+          "sd": 0.2212,
+          "median": 2.34
+        },
+        "MCI": {
+          "n": 261,
+          "mean": 2.3117,
+          "sd": 0.2275,
+          "median": 2.317
+        },
+        "AD_TRAJECTORY": {
+          "n": 167,
+          "mean": 2.253,
+          "sd": 0.2287,
+          "median": 2.253
+        }
+      },
+      "comparisons": {
+        "AD_TRAJECTORY_minus_CN": -0.0793,
+        "AD_TRAJECTORY_minus_MCI": -0.0587,
+        "MCI_minus_CN": -0.0206
+      }
+    }
+  ]
+}
