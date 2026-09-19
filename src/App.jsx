@@ -12,6 +12,7 @@ import {
 } from "recharts";
 import "./App.css";
 import AnnotationPanel from "./components/AnnotationPanel";
+import SystemBackdrop from "./components/SystemBackdrop";
 
 const GROUP_LABELS = {
   CN: "Cognitively Normal",
@@ -185,6 +186,7 @@ function App() {
 
   return (
     <main className="app-shell">
+      <SystemBackdrop />
       <header className="app-header">
         <div>
           <p className="eyebrow">Interactive neuroimaging viewer</p>
