@@ -12,6 +12,7 @@ import {
 } from "recharts";
 import "./App.css";
 import AnnotationPanel from "./components/AnnotationPanel";
+import PredictionPanel from "./components/PredictionPanel";
 import SystemBackdrop from "./components/SystemBackdrop";
 
 const GROUP_LABELS = {
@@ -187,6 +188,7 @@ function App() {
   return (
     <main className="app-shell">
       <SystemBackdrop />
+
       <header className="app-header">
         <div>
           <p className="eyebrow">Interactive neuroimaging viewer</p>
@@ -204,11 +206,18 @@ function App() {
         </div>
       </header>
 
-      <section className="group-controls" aria-label="Select cognitive group">
+      <section
+        className="group-controls"
+        aria-label="Select cognitive group"
+      >
         {metadata.groups.map((group) => (
           <button
             key={group}
-            className={selectedGroup === group ? "group-button active" : "group-button"}
+            className={
+              selectedGroup === group
+                ? "group-button active"
+                : "group-button"
+            }
             onClick={() => setSelectedGroup(group)}
             type="button"
           >
@@ -216,6 +225,7 @@ function App() {
               className="group-dot"
               style={{ backgroundColor: GROUP_COLORS[group] }}
             />
+
             <span>
               <strong>{GROUP_LABELS[group]}</strong>
               <small>{metadata.cohortCounts[group]} participants</small>
@@ -231,6 +241,7 @@ function App() {
               <p className="section-label">3D cortical viewer</p>
               <h2>{GROUP_LABELS[selectedGroup]}</h2>
             </div>
+
             <p className="interaction-help">
               Drag to rotate · Scroll to zoom · Click a marker
             </p>
@@ -255,8 +266,8 @@ function App() {
 
           <p className="prototype-note">
             Current prototype: markers represent the 68 measured cortical
-            regions. A matching anatomical surface will replace the translucent
-            scaffold.
+            regions. A matching anatomical surface will replace the
+            translucent scaffold.
           </p>
         </article>
 
@@ -294,40 +305,66 @@ function App() {
 
           <div className="chart-section">
             <h3>Group comparison</h3>
+
             <ResponsiveContainer width="100%" height={245}>
-              <BarChart data={chartData} margin={{ top: 10, right: 5, left: -15 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#dbe3ef" />
-                <XAxis dataKey="shortGroup" tick={{ fontSize: 12 }} />
+              <BarChart
+                data={chartData}
+                margin={{ top: 10, right: 5, left: -15 }}
+              >
+                <CartesianGrid
+                  strokeDasharray="3 3"
+                  stroke="#dbe3ef"
+                />
+
+                <XAxis
+                  dataKey="shortGroup"
+                  tick={{ fontSize: 12 }}
+                />
+
                 <YAxis
                   domain={["dataMin - 0.15", "dataMax + 0.15"]}
                   tick={{ fontSize: 12 }}
                   unit=" mm"
                 />
+
                 <Tooltip
                   formatter={(value, name, item) => [
                     `${Number(value).toFixed(3)} mm (n=${item.payload.participants})`,
                     "Mean CT",
                   ]}
                 />
-                <Bar dataKey="thickness" radius={[7, 7, 0, 0]} />
+
+                <Bar
+                  dataKey="thickness"
+                  radius={[7, 7, 0, 0]}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>
 
           <div className="difference-list">
             <h3>Regional differences</h3>
+
             <p>
               <span>AD trajectory − CN</span>
               <strong>
-                {selectedRegion.comparisons.AD_TRAJECTORY_minus_CN.toFixed(3)} mm
+                {selectedRegion.comparisons.AD_TRAJECTORY_minus_CN.toFixed(
+                  3,
+                )}{" "}
+                mm
               </strong>
             </p>
+
             <p>
               <span>AD trajectory − MCI</span>
               <strong>
-                {selectedRegion.comparisons.AD_TRAJECTORY_minus_MCI.toFixed(3)} mm
+                {selectedRegion.comparisons.AD_TRAJECTORY_minus_MCI.toFixed(
+                  3,
+                )}{" "}
+                mm
               </strong>
             </p>
+
             <p>
               <span>MCI − CN</span>
               <strong>
@@ -335,12 +372,15 @@ function App() {
               </strong>
             </p>
           </div>
+
           <AnnotationPanel
             selectedRegion={selectedRegion}
             selectedGroup={selectedGroup}
           />
         </aside>
       </section>
+
+      <PredictionPanel />
     </main>
   );
 }
