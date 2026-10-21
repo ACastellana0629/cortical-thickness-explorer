@@ -35,3 +35,14 @@ data/raw/
 dxmerge_rsfmri_baselinedata*
 aparc_stats_dkt_thickness_lh.txt
 aparc_stats_dkt_thickness_rh.txt
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+
+# Local training checkpoints and temporary outputs
+training/checkpoints/
+training/outputs/
