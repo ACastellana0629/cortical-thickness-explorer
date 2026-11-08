@@ -1,0 +1,20 @@
+{
+  "purpose": "Sensitivity to random initialization, dropout, and minibatch order",
+  "split_seed": 42,
+  "training_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "split_sizes": {
+    "train": 633,
+    "val": 136,
+    "test": 136
+  },
+  "model_names": [
+    "hw2_baseline",
+    "asymmetry_gated",
+    "asymmetry_no_gate"
+  ],
+  "note": "Fixed stratified row-level split. Test set reused only for post-hoc robustness description, not model selection. Results across seeds do not demonstrate generalization across new participants or splits. With n=3, mean\u00b1SD is descriptive, not a significance test."
+}

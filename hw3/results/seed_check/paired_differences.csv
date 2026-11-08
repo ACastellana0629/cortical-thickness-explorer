@@ -1,0 +1,7 @@
+comparison_minus_baseline,metric,mean_difference,sd_difference,seeds_better,seeds_equal,seeds_worse
+asymmetry_gated,test_accuracy,0.019607843137254905,0.018504496164879283,2,1,0
+asymmetry_gated,test_macro_f1,0.010881751461594221,0.02432636340774985,2,0,1
+asymmetry_gated,test_mci_recall,0.03418803418803418,0.06452849944675855,2,0,1
+asymmetry_no_gate,test_accuracy,-0.002450980392156891,0.016980890270283114,2,0,1
+asymmetry_no_gate,test_macro_f1,0.009475881004751422,0.021709208026465716,2,0,1
+asymmetry_no_gate,test_mci_recall,0.07692307692307691,0.05128205128205128,3,0,0
